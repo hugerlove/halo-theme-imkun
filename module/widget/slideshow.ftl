@@ -59,28 +59,28 @@
         </@photoTag>
 
 
-        <div class="blog-slider__item swiper-slide">
-            <div class="blog-slider__img">
-                <img src="https://i.loli.net/2019/06/18/5d086f9a391d070881.jpg" alt="">
-            </div>
-            <div class="blog-slider__content">
-                <span class="blog-slider__code">26 December 2019</span>
-                <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-                <a href="#" class="blog-slider__button">READ MORE</a>
-            </div>
-        </div>
-        <div class="blog-slider__item swiper-slide">
-            <div class="blog-slider__img">
-                <img src="https://www.imkun.dev/upload/2019/6/screenshot-b1085afcefba4b328e287685675ead60.jpg" alt="">
-            </div>
-            <div class="blog-slider__content">
-                <span class="blog-slider__code">26 December 2019</span>
-                <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-                <a href="#" class="blog-slider__button">READ MORE</a>
-            </div>
-        </div>
+<#--        <div class="blog-slider__item swiper-slide">-->
+<#--            <div class="blog-slider__img">-->
+<#--                <img src="https://i.loli.net/2019/06/18/5d086f9a391d070881.jpg" alt="">-->
+<#--            </div>-->
+<#--            <div class="blog-slider__content">-->
+<#--                <span class="blog-slider__code">26 December 2019</span>-->
+<#--                <div class="blog-slider__title">Lorem Ipsum Dolor</div>-->
+<#--                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>-->
+<#--                <a href="#" class="blog-slider__button">READ MORE</a>-->
+<#--            </div>-->
+<#--        </div>-->
+<#--        <div class="blog-slider__item swiper-slide">-->
+<#--            <div class="blog-slider__img">-->
+<#--                <img src="https://www.imkun.dev/upload/2019/6/screenshot-b1085afcefba4b328e287685675ead60.jpg" alt="">-->
+<#--            </div>-->
+<#--            <div class="blog-slider__content">-->
+<#--                <span class="blog-slider__code">26 December 2019</span>-->
+<#--                <div class="blog-slider__title">Lorem Ipsum Dolor</div>-->
+<#--                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>-->
+<#--                <a href="#" class="blog-slider__button">READ MORE</a>-->
+<#--            </div>-->
+<#--        </div>-->
     </div>
     <div class="blog-slider__pagination"></div>
 </div>
