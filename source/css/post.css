@@ -1,6 +1,7 @@
 #k-content {
     margin-left: 0px;
     flex: 11;
+    color: #4a4a4a;
 }
 
 .read-next-feed {
@@ -58,6 +59,19 @@
 .post-content ul li {
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+
+.post-content ol {
+    list-style:  decimal;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.post-content ol li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: decimal;
 }
 .post-content strong {
     color: #222;

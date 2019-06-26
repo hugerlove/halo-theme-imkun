@@ -6,7 +6,7 @@
 <div id="k-container">
     <div id="k-content">
         <div class="article-content">
-            <header class="post-full-header" style="border-bottom: 1px dashed #eee;">
+            <header class="post-full-header" style="border-bottom: 1px dashed #eee;margin-bottom: 20px;">
                 <h1 class="post-full-title">${post.title}</h1>
                 <section class="post-full-meta" style="display: flex;width: 200px;" >
                     <div class="im-tags" style="flex: 1"><a class="tags" href="#">
