@@ -49,6 +49,14 @@ general:
           label: Tomorrow Night
         - value: Twilight
           label: Twilight
+        - value: github
+          label: github
+        - value: base16.light
+          label: base16.light
+        - value: ghcolors
+          label: ghcolors
+        - value: night-owl
+          label: night-owl
 sns:
   label: 社交设置
   items:

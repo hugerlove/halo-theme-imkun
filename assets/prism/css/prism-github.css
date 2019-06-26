@@ -28,17 +28,18 @@ pre[class*="language-"] {
 pre[class*="language-"] {
   padding: .8em;
   overflow: auto;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  background: #fff;
+  /*border: 1px solid #ddd;*/
+  /*border-radius: 3px;*/
+  background: #fafafa;
+  font-size: 0.9rem !important;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
-  border-radius: .3em;
+  /*border-radius: .3em;*/
   white-space: normal;
-  background: #f5f5f5;
+  background: #fafafa;
 }
 
 .token.comment,
