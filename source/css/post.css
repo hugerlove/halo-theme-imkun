@@ -2,6 +2,7 @@
     margin-left: 0px;
     flex: 11;
     color: #4a4a4a;
+    min-width: 0;
 }
 
 .read-next-feed {
@@ -35,7 +36,7 @@
     font-size: 1.5rem;
     color: #333333;
     text-decoration: none;
-    line-height: 2rem;
+    line-height: 1.125;
     font-weight: 400 !important;
 }
 
@@ -51,12 +52,17 @@
 }
 
 .post-content ul {
-    list-style: disc outside;
     margin-left: 2em;
     margin-top: 1em;
 }
 
 .post-content ul li {
+    list-style: disc outside;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.post-content  li + li {
+    box-sizing: inherit;
     display: list-item;
     text-align: -webkit-match-parent;
 }
@@ -80,10 +86,9 @@
 }
 
 .post-content blockquote {
-    border-left: 3px solid rgba(232, 232, 232, 0.46);
-    margin-left: -20px;
-    background-color: #f9f9f9;
-    padding-left: 20px;
+    background-color: whitesmoke;
+    border-left: 5px solid #dbdbdb;
+    padding: 1em 1em;
 }
 .post-content blockquote::before {
     top: 20px;
@@ -94,6 +99,15 @@
     font-family: "Font Awesome 5 Free";
     text-align: center;
     position: static;
+}
+.post-content p:not(:last-child),
+.post-content dl:not(:last-child),
+.post-content ol:not(:last-child),
+.post-content ul:not(:last-child),
+.post-content blockquote:not(:last-child),
+.post-content pre:not(:last-child),
+.post-content table:not(:last-child){
+    margin-bottom: 1em;
 }
 .post-content hr {
     overflow: visible;
@@ -119,7 +133,8 @@
 .post-content a:hover,
 .post-content a:hover strong
 {
-    color: #fe7b9d;
+    /*color: #1485FE;*/
+    color: #333333;
 }
 .post-content form {
     margin: 0 auto;
@@ -151,46 +166,36 @@ input#passwordSubmit {
 input#passwordSubmit:hover {
     box-shadow: 0 3px 8px 0 rgba(5, 76, 166, 0.49) !important
 }
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    font-weight: 400
+}
+
 .post-content h1 {
-    font-size: 1.3rem;
-    color: #222;
-    font-weight: 400;
+    font-size: 1.55em
 }
 
 .post-content h2 {
-    font-size: 1.1rem;
-    color: #333;
-    font-weight: 400;
+    font-size: 1.45em
 }
 
 .post-content h3 {
-    font-size: 1.2rem;
-    color: #333333;
-    font-weight: 400;
+    font-size: 1.25em
 }
 
 .post-content h4 {
-    font-size: 1.1rem;
-    color: #333333;
-    font-weight: 400;
+    font-size: 1.125em
 }
 
 .post-content h5 {
-    font-size: 1.0rem;
-    color: #333333;
-    font-weight: 400;
+      font-size: 1em
+  }
+.post-content h6 {
+    font-size: 0.95em
+}
+.post-content h7 {
+    font-size: 0.9em
 }
 
-.post-content h6 {
-    font-size: 1.0rem;
-    color: #333333;
-    font-weight: 400;
-}
-.post-content h6 {
-    font-size: 1.0rem;
-    color: #333333;
-    font-weight: 400;
-}
 .post-content hr {
     border: 1px dashed #eceff2;
     margin-top: 10px;
@@ -364,4 +369,7 @@ table thead tr {
 .copyright {
     font-size: 14px;
 }
+
+
+
 

@@ -2,6 +2,7 @@
  * prism.js Github theme based on GitHub's theme.
  * @author Sam Clarke
  */
+pre > code,
 code[class*="language-"],
 pre[class*="language-"] {
   color: #333;
@@ -25,6 +26,7 @@ pre[class*="language-"] {
 }
 
 /* Code blocks */
+pre,
 pre[class*="language-"] {
   padding: .8em;
   overflow: auto;
@@ -32,6 +34,12 @@ pre[class*="language-"] {
   /*border-radius: 3px;*/
   background: #fafafa;
   font-size: 0.9rem !important;
+}
+
+code {
+  color: #1485FE;
+  background: 0 0;
+  padding: 0;
 }
 
 /* Inline code */
