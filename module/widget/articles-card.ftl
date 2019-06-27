@@ -3,7 +3,10 @@
     <li class="im-item hvr-sweep-to-right ">
         <a class="im-link" href="/archives/${post.url}">
             <#if post.thumbnail??>
-            <div class="im-ava" style="background-image: url(${post.thumbnail})"></div>
+                    <div class="im-ava" style="background-image: url(${post.thumbnail})"></div>
+            <#else >
+                    <div class="im-ava" style="background-image: url(${settings.cover})"></div>
+
             </#if>
             <span class="im-name weight-title">${post.title}</span>
                 <p class="im-tag weight-extra-font-size">${post.editTime?string["EEE MMM d"]}</p>

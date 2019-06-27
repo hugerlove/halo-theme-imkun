@@ -6,6 +6,8 @@
             <div class="im-card-2-img">
                  <#if post.thumbnail??>
                      <div style="background-image: url(${post.thumbnail})"></div>
+                 <#else >
+                     <div style="background-image: url(${settings.cover})"></div>
                  </#if>
             </div>
             <div class="im-card-2-post">

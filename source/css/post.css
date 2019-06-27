@@ -242,6 +242,13 @@ table thead tr {
     background-color: #f7f7f7
 }
 
+.post-full-comments {
+    margin-top: 20px;
+}
+
+blockquote:last-child > ul > li {
+    list-style: none;
+}
 
 
 

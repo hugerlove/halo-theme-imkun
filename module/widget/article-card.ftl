@@ -4,11 +4,13 @@ opacity: 1;
 transform-origin: center top;">
     <div class="im-weight-block-3-inner im-shadow">
         <div class="im-weight-3-image">
-            <#if post.thumbnail??>
             <a href="/archives/${post.url}">
-                <div class="cover" style="background-image: url(${post.thumbnail});" ></div>
+                <#if post.thumbnail??>
+                    <div class="cover" style="background-image: url(${post.thumbnail});" ></div>
+                <#else>
+                    <div class="cover" style="background-image: url(${settings.cover});" ></div>
+                </#if>
             </a>
-            </#if>
         </div>
         <div class="im-weight-3-content">
             <div class="im-weight-3-content-date gray extra-1-font-size">${post.editTime?string["EEE MMM d"]}</div>

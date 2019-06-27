@@ -3,9 +3,9 @@ general:
   items:
     cover:
       name: cover
-      label: 首页背景图
+      label: 文章默认图片
       type: text
-      default: '/casper/assets/images/blog-cover.jpg'
+      default: '/halo-theme-imkun/source/images/cover.jpg'
     links_cover:
       name: links_cover
       label: 友情链接页面背景图
