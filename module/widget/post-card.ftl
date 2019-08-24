@@ -22,9 +22,7 @@
                         ${user.nickname!}
                     </div>
                     <div class="im-card-2-post-footer-extra weight-extra-font-size">
-                                <span class="views"><i class="fa fa-eye"
-                                                       style="padding-right: 5px;"></i>${post.visits}</span>
-                        <span class="messages"><i class="fa fa-comment" style="padding-right: 5px;"></i>${post.likes}</span>
+                        <span class="messages">${post.createTime?string["EEE MMM d"]}</span>
                     </div>
                 </div>
             </div>

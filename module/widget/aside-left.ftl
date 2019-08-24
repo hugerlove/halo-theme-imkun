@@ -1,8 +1,9 @@
 <div class="im-profile im-shadow animated slideInLeft">
     <div class="im-info">
         <div class="im-photo">
-            <img src="${options.blog_logo!}"
+            <img src="${settings.cover!}"
                  alt="${options.blog_title!}">
+
         </div>
         <div class="im-signature">
             <div class="im-name">${user.nickname}</div>
@@ -99,61 +100,61 @@
         </#if>
     </div>
 </div>
-<div class="im-classify  im-shadow animated slideInLeft">
-    <div class="im-classify-title">
-        <div>专题</div>
-    </div>
-    <div class="im-category">
-        <ul>
-            <@categoryTag method="list">
-                <#list categories as category>
-                    <li>
-                        <a href="${context!}/categories/${category.slugName}">${category.name}(${category.postCount!0})</a>
-                    </li>
-                </#list>
-            </@categoryTag>
-        </ul>
-    </div>
-    <div class="im-tags"></div>
+<#--<div class="im-classify  im-shadow animated slideInLeft">-->
+<#--    <div class="im-classify-title">-->
+<#--        <div>专题</div>-->
+<#--    </div>-->
+<#--    <div class="im-category">-->
+<#--        <ul>-->
+<#--            <@categoryTag method="list">-->
+<#--                <#list categories as category>-->
+<#--                    <li>-->
+<#--                        <a href="${context!}/categories/${category.slugName}">${category.name}(${category.postCount!0})</a>-->
+<#--                    </li>-->
+<#--                </#list>-->
+<#--            </@categoryTag>-->
+<#--        </ul>-->
+<#--    </div>-->
+<#--    <div class="im-tags"></div>-->
 
-</div>
+<#--</div>-->
 
-<div class="im-classify  im-shadow animated slideInLeft">
-    <div class="im-classify-title">
-        <div>标签</div>
-    </div>
-    <div class="im-category">
-        <ul>
-            <@tagTag method="list">
-                <#list tags as tag>
-                    <li>
-                        <a href="${context!}/tags/${tag.slugName}">${tag.name}(${tag.postCount!0})</a>
-                    </li>
-                </#list>
-            </@tagTag>
-        </ul>
-    </div>
-    <div class="im-tags"></div>
+<#--<div class="im-classify  im-shadow animated slideInLeft">-->
+<#--    <div class="im-classify-title">-->
+<#--        <div>标签</div>-->
+<#--    </div>-->
+<#--    <div class="im-category">-->
+<#--        <ul>-->
+<#--            <@tagTag method="list">-->
+<#--                <#list tags as tag>-->
+<#--                    <li>-->
+<#--                        <a href="${context!}/tags/${tag.slugName}">${tag.name}(${tag.postCount!0})</a>-->
+<#--                    </li>-->
+<#--                </#list>-->
+<#--            </@tagTag>-->
+<#--        </ul>-->
+<#--    </div>-->
+<#--    <div class="im-tags"></div>-->
 
-</div>
-<div class="im-classify  im-shadow">
-    <div class="im-classify-title">
-        <div>Links</div>
-    </div>
-    <div class="im-category">
-        <ul>
-            <@linkTag method="list">
-                <#if links?? && links?size gt 0>
-                    <#list links as link>
-                        <li>🔒 <a href="${link.url}" target="_blank">${link.name}</a></li>
-                    </#list>
-                </#if>
-            </@linkTag>
-        </ul>
-    </div>
-    <div class="im-tags"></div>
+<#--</div>-->
+<#--<div class="im-classify  im-shadow">-->
+<#--    <div class="im-classify-title">-->
+<#--        <div>Links</div>-->
+<#--    </div>-->
+<#--    <div class="im-category">-->
+<#--        <ul>-->
+<#--            <@linkTag method="list">-->
+<#--                <#if links?? && links?size gt 0>-->
+<#--                    <#list links as link>-->
+<#--                        <li>🔒 <a href="${link.url}" target="_blank">${link.name}</a></li>-->
+<#--                    </#list>-->
+<#--                </#if>-->
+<#--            </@linkTag>-->
+<#--        </ul>-->
+<#--    </div>-->
+<#--    <div class="im-tags"></div>-->
 
-</div>
+<#--</div>-->
 <div class="im-weight-block-1 im-shadow animated fadeInLeft">
     <header class="im-head">
         <h3 class="im-title">最多浏览</h3>

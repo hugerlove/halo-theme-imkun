@@ -235,7 +235,7 @@ aside .im-weight-block-1:not(:first-child) {
 }
 
 .im-card-2-post-footer .im-card-2-post-footer-extra span:first-child {
-    padding-right: 30px;
+    /*padding-right: 30px;*/
 }
 aside .im-weight-block-3:first-child {
     margin-top: 10px;

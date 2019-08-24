@@ -6,6 +6,19 @@ general:
       label: 文章默认图片
       type: text
       default: '/halo-theme-imkun/source/images/cover.jpg'
+    blog_name:
+      name: blog_name
+      label: 博客名
+      type: radio
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 显示
+        - value: false
+          label: 不显示
+
+
     links_cover:
       name: links_cover
       label: 友情链接页面背景图
@@ -115,3 +128,11 @@ sns:
       name: stackoverflow
       label: Stack Overflow
       type: text
+  other:
+    label: 其它设置
+    items:
+      cover:
+        name: cover
+        label: 文章默认图片
+        type: text
+        default: '/halo-theme-imkun/source/images/cover.jpg'
