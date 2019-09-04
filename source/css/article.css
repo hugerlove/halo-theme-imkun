@@ -83,6 +83,7 @@ aside{
     margin-right: 20px;
     margin-left: 30px;
 }
+
 .inner-content aside {
     flex: 2.85 !important;
 }

@@ -5,7 +5,7 @@ general:
       name: cover
       label: 文章默认图片
       type: text
-      default: '/halo-theme-imkun/source/images/cover.jpg'
+      default: ''
     blog_name:
       name: blog_name
       label: 博客名
