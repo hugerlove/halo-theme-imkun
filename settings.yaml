@@ -17,8 +17,6 @@ general:
           label: 显示
         - value: false
           label: 不显示
-
-
     links_cover:
       name: links_cover
       label: 友情链接页面背景图

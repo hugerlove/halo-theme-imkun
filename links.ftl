@@ -18,7 +18,7 @@
             <#list teams as item>
         <div class="k-content-timeline">
             <div class="im-timeline">
-                <div class="im-timeline-extra">
+            <div class="im-timeline-extra">
                     <div class="im-timeline-extra-date">${item.team}</div>
                     <div class="im-timeline-extra-total extra-1-font-size gray">${item.links?size}</div>
                 </div>

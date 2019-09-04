@@ -13,7 +13,8 @@
     <div class="im-skills">
         <#if settings.twitter??>
             <div>
-                <a class="social-link social-link-tw simptip-position-top simptip-movable" data-tooltip="TWITTER" href="https://twitter.com/${settings.twitter}" target="_blank" rel="noopener">
+                <a class="social-link social-link-tw simptip-position-top simptip-movable" data-tooltip="TWITTER"
+                   href="https://twitter.com/${settings.twitter}" target="_blank" rel="noopener">
                     <#include "../icons/twitter.ftl">
                 </a>
             </div>
@@ -21,7 +22,8 @@
 
         <#if settings.facebook??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="FACKBOOK" href="https://www.facebook.com/${settings.facebook}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="FACKBOOK"
+                   href="https://www.facebook.com/${settings.facebook}" target="_blank" rel="noopener">
                     <#include "../icons/facebook.ftl">
                 </a>
             </div>
@@ -29,7 +31,8 @@
 
         <#if settings.instagram??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="INSTAGRAM" href="https://www.instagram.com/${settings.instagram}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="INSTAGRAM"
+                   href="https://www.instagram.com/${settings.instagram}" target="_blank" rel="noopener">
                     <#include "../icons/instagram.ftl">
                 </a>
             </div>
@@ -37,7 +40,8 @@
 
         <#if settings.dribbble??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="DRIBBBLE" href="https://dribbble.com/${settings.dribbble}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="DRIBBBLE"
+                   href="https://dribbble.com/${settings.dribbble}" target="_blank" rel="noopener">
                     <#include "../icons/dribbble.ftl">
                 </a>
             </div>
@@ -45,7 +49,8 @@
 
         <#if settings.weibo??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="WEIBO" href="https://weibo.com/${settings.weibo}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="WEIBO"
+                   href="https://weibo.com/${settings.weibo}" target="_blank" rel="noopener">
                     <#include "../icons/weibo.ftl">
                 </a>
             </div>
@@ -53,7 +58,8 @@
 
         <#if settings.qq??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="QQ" href="tencent://message/?uin=${settings.qq}&Site=&Menu=yes" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="QQ"
+                   href="tencent://message/?uin=${settings.qq}&Site=&Menu=yes" target="_blank" rel="noopener">
                     <#include "../icons/qq.ftl">
                 </a>
             </div>
@@ -61,7 +67,8 @@
 
         <#if settings.telegram??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="TELEGRAM" href="https://t.me/${settings.telegram}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="TELEGRAM"
+                   href="https://t.me/${settings.telegram}" target="_blank" rel="noopener">
                     <#include "../icons/telegram.ftl">
                 </a>
             </div>
@@ -69,7 +76,8 @@
 
         <#if settings.email??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="EMAIL" href="mailto:${settings.email}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="EMAIL"
+                   href="mailto:${settings.email}" target="_blank" rel="noopener">
                     <#include "../icons/email.ftl">
                 </a>
             </div>
@@ -77,7 +85,8 @@
 
         <#if settings.github??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="GITHUB" href="https://github.com/${settings.github}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="GITHUB"
+                   href="https://github.com/${settings.github}" target="_blank" rel="noopener">
                     <#include "../icons/github.ftl">
                 </a>
             </div>
@@ -85,7 +94,8 @@
 
         <#if settings.cnblog??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="CNBLOG" href="https://www.cnblogs.com/${settings.cnblog}/" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="CNBLOG"
+                   href="https://www.cnblogs.com/${settings.cnblog}/" target="_blank" rel="noopener">
                     <#include "../icons/cnblog.ftl">
                 </a>
             </div>
@@ -93,7 +103,8 @@
 
         <#if settings.stackoverflow??>
             <div>
-                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="STACKOVERFLOW" href="https://stackoverflow.com/users/${settings.stackoverflow}" target="_blank" rel="noopener">
+                <a class="social-link social-link-fb simptip-position-top simptip-movable" data-tooltip="STACKOVERFLOW"
+                   href="https://stackoverflow.com/users/${settings.stackoverflow}" target="_blank" rel="noopener">
                     <#include "../icons/stackoverflow.ftl">
                 </a>
             </div>

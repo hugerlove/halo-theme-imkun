@@ -4,34 +4,34 @@
 
 
 <#-- The main content area -->
-<main id="site-main" class="site-main outer">
-    <div class="inner">
+    <main id="site-main" class="site-main outer">
+        <div class="inner">
 
-        <article class="post-full post page no-image">
+            <article class="post-full post page no-image">
 
-            <header class="post-full-header">
-                <h1 class="post-full-title">${post.postTitle}</h1>
-            </header>
+                <header class="post-full-header">
+                    <h1 class="post-full-title">${post.postTitle}</h1>
+                </header>
 
-            <section class="post-full-content">
-                <div class="post-content">
-                    ${post.postContent}
-                </div>
-            </section>
+                <section class="post-full-content">
+                    <div class="post-content">
+                        ${post.postContent}
+                    </div>
+                </section>
 
-            <section class="post-full-comments">
-            <#-- If you want to embed comments, this is a good place to do it! -->
-                <#include "module/comment.ftl">
-            </section>
+                <section class="post-full-comments">
+                    <#-- If you want to embed comments, this is a good place to do it! -->
+                    <#include "module/comment.ftl">
+                </section>
 
-        </article>
+            </article>
 
-    </div>
-</main>
+        </div>
+    </main>
 </@default>
 <@scripts>
     <script>
-        $(function() {
+        $(function () {
             var $postContent = $(".post-full-content");
             $postContent.fitVids();
         });

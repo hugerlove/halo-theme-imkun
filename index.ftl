@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <@default title="${options.blog_title!}" keyword="${options.seo_keywords!}" desc="${options.seo_desc!}" canonical="${options.blog_url}" body_class="home-template" />
 <#include "module/menu.ftl" />
-
 <div id="k-container">
     <aside>
         <#include "module/widget/aside-left.ftl">
@@ -30,7 +29,7 @@
             <aside>
                 <#include "module/widget/aside-right.ftl">
             </aside>
-            </div>
+        </div>
     </div>
 </div>
 <script type="application/javascript">

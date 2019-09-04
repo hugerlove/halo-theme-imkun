@@ -1,6 +1,6 @@
 <#include "default.ftl" />
 <link rel="stylesheet" href="${static!}/source/css/article-timeline.css">
-<link rel="stylesheet" href="${static!}/source/css/pagination.css" />
+<link rel="stylesheet" href="${static!}/source/css/pagination.css"/>
 <#include "module/widget/post-card.ftl" />
 <#include "module/widget/articles-card.ftl" />
 <#include "module/widget/article-card.ftl" />

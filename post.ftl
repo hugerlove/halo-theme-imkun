@@ -8,12 +8,15 @@
         <div class="article-content">
             <header class="post-full-header" style="border-bottom: 1px dashed #eee;margin-bottom: 20px;">
                 <h1 class="post-full-title">${post.title}</h1>
-                <section class="post-full-meta" style="display: flex;width: 200px;" >
+                <section class="post-full-meta" style="display: flex;width: 200px;">
                     <div class="im-tags" style="flex: 1"><a class="tags" href="#">
-                            <time class="post-full-meta-date" datetime="${post.createTime?string('yyyy-MM-dd')}">${post.createTime?string('d MMM,yyyy')}</time>
+                            <time class="post-full-meta-date"
+                                  datetime="${post.createTime?string('yyyy-MM-dd')}">${post.createTime?string('d MMM,yyyy')}</time>
                         </a></div>
                     <#if post.categories?? && post.categories?size gt 0>
-                        <div class="im-tags" style="flex: 6;"><a class="tags ${randomColor()}" href="/categories/${post.categories[0].slugName}">${post.categories[0].name}</a></div>
+                        <div class="im-tags" style="flex: 6;"><a class="tags ${randomColor()}"
+                                                                 href="/categories/${post.categories[0].slugName}">${post.categories[0].name}</a>
+                        </div>
                     </#if>
                 </section>
             </header>
@@ -25,7 +28,7 @@
 
             <section class="post-full-content">
                 <div class="post-content" id="post-content">
-<#--                    <img src="${post.thumbnail!}" alt="${post.title}">-->
+                    <#--                    <img src="${post.thumbnail!}" alt="${post.title}">-->
 
                     ${post.formatContent!}
                     <#include "module/post-copyright.ftl">

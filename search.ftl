@@ -1,8 +1,8 @@
 <#include "./default.ftl" />
-<link rel="stylesheet" href="${static!}/source/css/common.css" />
-<link rel="stylesheet" href="${static!}/source/css/weight.css" />
-<link rel="stylesheet" href="${static!}/source/css/menu.css" />
-<link rel="stylesheet" href="${static!}/source/css/article.css" />
+<link rel="stylesheet" href="${static!}/source/css/common.css"/>
+<link rel="stylesheet" href="${static!}/source/css/weight.css"/>
+<link rel="stylesheet" href="${static!}/source/css/menu.css"/>
+<link rel="stylesheet" href="${static!}/source/css/article.css"/>
 <link rel="stylesheet" href="${static!}/source/css/pagination.css" /
 <#include "./module/widget/post-card.ftl">
 <#include "./module/widget/articles-card.ftl" />
@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="${static!}/source/css/article-timeline.css">
 <#include "module/menu.ftl" />
 <div>
-<#--    <#include "module/widget/search.ftl" />-->
+    <#--    <#include "module/widget/search.ftl" />-->
 </div>
 <div id="k-container">
     <aside>

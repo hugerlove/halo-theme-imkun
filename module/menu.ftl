@@ -12,7 +12,7 @@
                                              height="20px"/>
                                     </#if>
                                     <#if settings.blog_title??>
-                                    <span>${options.blog_title}</span>
+                                        <span>${options.blog_title}</span>
                                     </#if>
                                 </a>
                             </a></li>

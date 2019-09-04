@@ -12,7 +12,6 @@
     <div id="k-content">
         <@postTag method="archiveMonth">
             <#list archives as archive>
-
                 <div class="k-content-timeline">
                     <div class="im-timeline">
                         <div class="im-timeline-extra">
@@ -24,22 +23,23 @@
                                 <li class="im-timeline-li">
                                     <div class="im-timeline-li-cover">
                                         <#if post.thumbnail??>
-                                        <img src="${post.thumbnail}"" alt="${post.title}">
+                                            <img src="${post.thumbnail}"" alt="${post.title}">
                                         </#if>
                                     </div>
                                     <div class="im-timeline-content">
                                         <div class="im-timeline-content-info">
                                             <div>
-                                                <a href="${context!}/archives/${post.url!}" class="im-timeline-li-link weight-title">${post.title} </a>
+                                                <a href="${context!}/archives/${post.url!}"
+                                                   class="im-timeline-li-link weight-title">${post.title} </a>
                                             </div>
                                             <p class="weight-extra-font-size">${post.editTime?string["EEE MMM d"]}</p>
                                         </div>
-<#--                                        <div class="im-timeline-content-tags">-->
-<#--                                            ${post}-->
-<#--                                            <#list post.tags as tag>-->
-<#--                                                <a href="/tags/${tag.id}">${tag.String}</a>-->
-<#--                                            </#list>-->
-<#--                                        </div>-->
+                                        <#--                                        <div class="im-timeline-content-tags">-->
+                                        <#--                                            ${post}-->
+                                        <#--                                            <#list post.tags as tag>-->
+                                        <#--                                                <a href="/tags/${tag.id}">${tag.String}</a>-->
+                                        <#--                                            </#list>-->
+                                        <#--                                        </div>-->
 
 
                                     </div>
