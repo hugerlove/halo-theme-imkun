@@ -31,7 +31,7 @@
                     <#--                    <img src="${post.thumbnail!}" alt="${post.title}">-->
 
                     ${post.formatContent!}
-                    <#include "module/post-copyright.ftl">
+<#--                    <#include "module/post-copyright.ftl">-->
                 </div>
                 <#--<#include "partials/byline-single.ftl">-->
             </section>
