@@ -134,3 +134,4 @@ sns:
         label: 文章默认图片
         type: text
         default: '/halo-theme-imkun/source/images/cover.jpg'
+
